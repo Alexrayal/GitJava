@@ -10,7 +10,9 @@ public class Sample {
 	public void last() {
 		System.out.println("Process finished....");
 	}
+	
 	public static void main(String[] args) {
+		System.out.println("Code added by Ray...");
 		System.out.println("Code added by alex...");
 	}
 
