@@ -1,13 +1,17 @@
+
 package org.samp;
 
 public class Sample {
 
-	private void first() {
+	public void first() {
 		System.out.println("Process started..");
 	}
 
-	private void last() {
+	public void last() {
 		System.out.println("Process finished....");
+	}
+	public static void main(String[] args) {
+		System.out.println("Code added by alex...");
 	}
 
 }
